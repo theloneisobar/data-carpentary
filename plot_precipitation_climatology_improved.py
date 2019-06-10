@@ -1,11 +1,11 @@
 # Exercise responses to https://carpentrieslab.github.io/python-aos-lesson/04-cmdline/index.html
 
+import argparse         #PEP8 style guide says standard Python packages listed first
 
-import argparse
+import numpy as np
 import xarray as xr
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
-import numpy as np
 import cmocean
 
 
